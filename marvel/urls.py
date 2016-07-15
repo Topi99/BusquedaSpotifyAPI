@@ -5,6 +5,6 @@ from spotify import views as sv
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^$', views.Welcome.as_view()),
-    url(r'^spotify/$', sv.Main.as_view()),
+    url(r'^marvel/$', views.Welcome.as_view()),
+    url(r'^$', sv.Main.as_view()),
 ]
