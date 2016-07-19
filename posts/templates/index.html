@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Todos Los Posts</title>
+</head>
+<body>
+	<h1>Todos Los Posts</h1>
+	{%for p in posts%}
+		<h2>{{p.titulo}}</h2>
+		<p>{{p.cuerpo}}</p>
+		<h4>{{p.fecha}}</h4>
+	{%endfor%}
+</body>
+</html>

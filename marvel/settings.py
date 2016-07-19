@@ -27,6 +27,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'main',
     'spotify',
+    'posts',
 ]
 
 MIDDLEWARE_CLASSES = [
