@@ -6,7 +6,7 @@ import hashlib
 class Welcome(View):
 
 	def get(self, request):
-		per = "Hulk"
+		per = "Avengers"
 		name = buscar(per)['data']['results'][0]['name']
 		descripcion = buscar(per)['data']['results'][0]['description']
 		img = buscar(per)['data']['results'][0]['thumbnail']['path']+"."+buscar(per)['data']['results'][0]['thumbnail']['extension']
